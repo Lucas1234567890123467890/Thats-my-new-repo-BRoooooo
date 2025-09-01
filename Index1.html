@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diccionario Argentino</title>
+  <link rel="icon" href="libro.png" type="image/png">
+</head>
+<body>
+  
+  <header>
+    <div class="logo">
+      <img src="icono.png" alt="Logo Diccionario" width="50" height="50">
+      <h1>Diccionario Argentino</h1>
+    </div>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Sobre</a>
+      <a href="#">Contacto</a>
+      <a href="login-register.html" class="nav-button">Acceder</a>
+    </nav>
+  </header>
+
+  <section class="busqueda">
+    <form>
+      <input type="text" placeholder="Escriba aquí la palabra">
+      <button type="submit">Consultar</button>
+    </form>
+  </section>
+
+  <div class="palabra-del-dia">
+  <h2>Palabra del Día</h2>
+  <div class="card">
+    <h3 class="palabra">Embole</h3>
+    <p class="definicion">
+      Situacion pesada
+    </p>
+    <p class="ejemplo">
+      Ejemplo: "LIL BRO DONT SEARCH: LIONEL EROME"
+    </p>
+  </div>
+</div>
+
+<section id="detalle-palabra" class="hidden">
+    <h1 class="titulo-detalle">Info de palabra</h1>
+    
+    <h2>Palabra</h2>
+    <div class="bloque-detalle"></div>
+    
+    <h2>Significado</h2>
+    <div class="bloque-detalle"></div>
+
+    <h2>Palabras similares</h2>
+    <div class="bloque-detalle"></div>
+  </section>
+
+</body>
+</html>
